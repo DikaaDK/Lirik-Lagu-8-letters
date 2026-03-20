@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 Letters</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="start-overlay" class="start-overlay">
+      <div class="start-panel">
+        <button id="play-audio-btn" class="start-button" type="button">Start Music</button>
+      </div>
+    </div>
+
+    <main id="viewport" class="viewport" aria-label="Lyric Camera Scene">
+      <section id="world" class="world"></section>
+    </main>
+
+    <audio id="my-audio" preload="auto">
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
